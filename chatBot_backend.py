@@ -20,7 +20,7 @@ model = ChatGroq(
 )
 
 #database connection
-conn = sqlite3.connect(database = 'chatbot.db', check_same_thread = False)
+conn = sqlite3.connect(database = 'chatAgent.db', check_same_thread = False)
 
 
 #define state of the graph
